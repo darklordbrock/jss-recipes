@@ -1,0 +1,25 @@
+<policy>
+    <general>
+        <site>
+          <name>%SITE_NAME%</name>
+        </site>
+        <name>AutoPkgr - %SITE_NAME% - Update - %PROD_NAME%</name>
+        <enabled>true</enabled>
+        <frequency>Once every week</frequency>
+        <category>
+            <name>%POLICY_CATEGORY%</name>
+        </category>
+        <trigger_startup>true</trigger_startup>
+        <trigger_login>true</trigger_login>
+        <trigger_logout>true</trigger_logout>
+    </general>
+	<scope>
+		<!--Scope added by JSSImporter-->
+	</scope>
+	<package_configuration>
+		<!--Package added by JSSImporter-->
+    </package_configuration>
+    <scripts>
+		<!--Scripts added by JSSImporter-->
+    </scripts>
+</policy>
