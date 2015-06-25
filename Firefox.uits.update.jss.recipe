@@ -23,11 +23,11 @@ combination is offered.</string>
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/firefox/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/Firefox/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/icons/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/firefox/UITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Firefox/UITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>DESCRIPTION</key>
