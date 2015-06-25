@@ -25,7 +25,7 @@
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%Templates-default/UWM-Update-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Templates-default/UWM-Update-SmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
             <string>Google Chrome is a browser that combines a minimal design with sophisticated technology to make the web faster, safer, and easier.</string>
         </dict>
