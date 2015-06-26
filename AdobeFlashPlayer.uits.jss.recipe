@@ -17,7 +17,7 @@
             <key>POLICY_CATEGORY</key>
             <string>Production</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/AdobeFlashPlayer/UITS-Update-Flash-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>AdobeFlashPlayer</string>
             <key>GROUP_TEMPLATE</key>
