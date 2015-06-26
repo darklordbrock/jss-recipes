@@ -8,6 +8,8 @@
         <string>com.github.darklordbrock.jss.update.uits.Office2011Updates</string>
         <key>Input</key>
         <dict>
+            <key>SITE_NAME</key>
+            <string>UITS</string>
             <key>NAME</key>
             <string>Office2011Update</string>
             <key>CATEGORY</key>
@@ -15,13 +17,13 @@
             <key>POLICY_CATEGORY</key>
             <string>Office</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/MSOffice2011/PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/MSOffice2011/UITS-Update-Office-PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/MSOffice.png</string>
+            <string>%RECIPE_DIR%/icons/MSOffice.png</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%-update-smart</string>
+            <string>%NAME%</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/MSOffice2011/MSOffice2011UpdatesSmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/MSOffice2011/UITS-Update-Office-SmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
             <string>Updates to MS Office 2011.</string>
         </dict>
@@ -31,10 +33,6 @@
         <string>com.github.autopkg.pkg.Office2011Updates</string>
         <key>Process</key>
         <array>
-            <dict>
-                <key>Processor</key>
-                <string>MSOffice2011Versioner</string>
-            </dict>
             <dict>
                 <key>Processor</key>
                 <string>JSSImporter</string>
