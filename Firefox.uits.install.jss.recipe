@@ -17,7 +17,7 @@ combination is offered.</string>
             <key>SITE_NAME</key>
             <string>UITS</string>
             <key>NAME</key>
-            <string>Firefox</string>
+            <string>Firefox_ESR</string>
             <key>CATEGORY</key>
             <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
