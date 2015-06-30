@@ -5,21 +5,17 @@
         <key>Description</key>
         <string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.FlashPlayerExtractPackage</string>
+        <string>com.github.darklordbrock.jss.update.uits.AdobeFlashPlayer</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
-            <key>NAME</key>
-            <string>AdobeFlashPlayer</string>
-            <key>CATEGORY</key>
-            <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
             <string>Production</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>GROUP_NAME</key>
-            <string>AdobeFlashPlayer</string>
+            <string>Adobe-Flash</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/AdobeFlashPlayer/UITS-Update-Flash-SmartGroupTemplate.xml</string>
             <key>ICON</key>
@@ -28,16 +24,12 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.FlashPlayerExtractPackage</string>
+        <string>com.github.darklordbrock.jss.put.uits.AdobeFlashPlayer</string>
         <key>Process</key>
         <array>
             <dict>
                 <key>Arguments</key>
                 <dict>
-                    <key>prod_name</key>
-                    <string>%NAME%</string>
-                    <key>category</key>
-                    <string>%CATEGORY%</string>
                     <key>policy_category</key>
                     <string>%POLICY_CATEGORY%</string>
                     <key>policy_template</key>
