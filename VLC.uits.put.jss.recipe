@@ -5,11 +5,11 @@
     <key>Description</key>
     <string>Downloads latest VLC disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.darklordbrock.put.uits.VLC</string>
+    <string>com.github.darklordbrock..jss.put.uits.VLC</string>
     <key>Input</key>
     <dict>
       <key>NAME</key>
-      <string>All-0Current-VideoLAN-VLC</string>
+      <string>VLC</string>
       <key>CATEGORY</key>
       <string>AutoPkgr</string>
       <key>ICON</key>
@@ -76,7 +76,7 @@
             <key>Arguments</key>
             <dict>
                 <key>pkgname</key>
-                <string>%NAME%</string>
+                <string>All-0Current-VideoLAN-%NAME%</string>
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgdir</key>
