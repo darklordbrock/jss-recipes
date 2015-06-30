@@ -3,13 +3,13 @@
         <site>
           <name>%SITE_NAME%</name>
         </site>
-        <name>%SITE_NAME% - Install - %PROD_NAME%</name>
+        <name>Firefox</name>
         <enabled>true</enabled>
         <frequency>Once every week</frequency>
         <category>
             <name>%POLICY_CATEGORY%</name>
         </category>
-        <trigger_other>%SITE_NAME%-%PROD_NAME%-install</trigger_other>
+        <trigger_other>%SITE_NAME%-%NAME%-install</trigger_other>
     </general>
 	<scope>
 		<!--Scope added by JSSImporter-->
