@@ -8,10 +8,10 @@
     <string>com.github.darklordbrock.jss.put.uits.AdobeFlashPlayer</string>
     <key>Input</key>
     <dict>
-        <key>VENDER</key>
-        <string>Adobe</string>
         <key>NAME</key>
         <string>Flash</string>
+        <key>VENDER</key>
+        <string>Adobe</string>
         <key>CATEGORY</key>
         <string>AutoPkgr</string>
     </dict>
