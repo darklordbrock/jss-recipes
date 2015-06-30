@@ -11,7 +11,7 @@ Examples include 'en-US', 'de', 'ja-JP-mac', 'sv-SE', and 'zh-TW'
 No idea if all Firefox builds are available in all the same localizations, so you may need to verify that any particular
 combination is offered.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.install.uits.Firefox_EN</string>
+        <string>com.github.darklordbrock.jss.update.uits.Firefox_EN</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
@@ -23,13 +23,13 @@ combination is offered.</string>
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Firefox/UITS-Install-Firefox_ESR-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/Firefox/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/icons/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Firefox/UITS-Install-Firefox_ESR-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Firefox/UITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
-            <string>%NAME%</string>
+            <string>%VENDER%-%NAME%</string>
             <key>DESCRIPTION</key>
             <string>Web Browser</string>
             <key>LOCALE</key>
