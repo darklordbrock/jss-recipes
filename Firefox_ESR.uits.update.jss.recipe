@@ -11,15 +11,11 @@ Examples include 'en-US', 'de', 'ja-JP-mac', 'sv-SE', and 'zh-TW'
 No idea if all Firefox builds are available in all the same localizations, so you may need to verify that any particular
 combination is offered.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.Firefox_EN</string>
+        <string>com.github.darklordbrock.jss.update.uits.Firefox_ESR</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
-            <key>NAME</key>
-            <string>Firefox_ESR</string>
-            <key>CATEGORY</key>
-            <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_TEMPLATE</key>
@@ -32,15 +28,11 @@ combination is offered.</string>
             <string>%VENDER%-%NAME%</string>
             <key>DESCRIPTION</key>
             <string>Web Browser</string>
-            <key>LOCALE</key>
-        		<string>en_US</string>
-            <key>RELEASE</key>
-        		<string>latest-esr</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.Firefox_EN</string>
+        <string>com.github.darklordbrock.jss.put.uits.Firefox_ESR</string>
         <key>Process</key>
         <array>
             <dict>
