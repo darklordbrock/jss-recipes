@@ -98,7 +98,7 @@ combination is offered.</string>
             <key>Arguments</key>
             <dict>
                 <key>prod_name</key>
-                <string>%VENDER%-%NAME%</string>
+                <string>%NAME%</string>
                 <key>category</key>
                 <string>%CATEGORY%</string>
             </dict>
