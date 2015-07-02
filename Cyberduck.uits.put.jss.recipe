@@ -9,9 +9,15 @@
     <key>Input</key>
     <dict>
         <key>NAME</key>
-        <string>All-0Current-Cyberduck</string>
+        <string>Cyberduck</string>
         <key>CATEGORY</key>
         <string>AutoPkgr</string>
+        <key>SCOPE</key>
+    		<string>All-8Auto-</string>
+    		<key>CATEGORY</key>
+    		<string>AutoPkgr</string>
+        <key>VENDER</key>
+        <string></string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.autopkg.download.Cyberduck</string>
@@ -67,7 +73,7 @@
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgname</key>
-                    <string>%NAME%</string>
+                    <string>%SCOPE%%VENDER%%NAME%</string>
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
