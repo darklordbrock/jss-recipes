@@ -11,11 +11,11 @@
         <key>NAME</key>
         <string>TextWrangler</string>
         <key>SCOPE</key>
-        <string>All-0Current</string>
+        <string>All-8Auto-</string>
         <key>CATEGORY</key>
         <string>AutoPkgr</string>
         <key>VENDER</key>
-        <string>BareBones</string>
+        <string>BareBones-</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
@@ -63,7 +63,7 @@
             <key>Arguments</key>
             <dict>
                 <key>pkgname</key>
-                <string>%SCOPE%-%VENDER%-%NAME%</string>
+                <string>%SCOPE%%VENDER%%NAME%</string>
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgdir</key>
