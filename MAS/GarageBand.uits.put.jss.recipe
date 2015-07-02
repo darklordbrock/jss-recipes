@@ -11,13 +11,13 @@
 		<key>NAME</key>
 		<string>GarageBand</string>
 		<key>SCOPE</key>
-		<string>All-0Current</string>
+		<string>All-8Auto-</string>
 		<key>mas_action</key>
 		<string>leave</string>
 		<key>CATEGORY</key>
 		<string>AutoPkgr</string>
 		<key>VENDER</key>
-		<string>Apple</string>
+		<string>Apple-</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
@@ -92,7 +92,7 @@
 					<key>options</key>
 					<string>purge_ds_store</string>
 					<key>pkgname</key>
-					<string>%SCOPE%-%VENDER%-%NAME%</string>
+					<string>%SCOPE%%VENDER%%NAME%</string>
 					<key>pkgroot</key>
 					<string>%pathname%</string>
 					<key>version</key>
