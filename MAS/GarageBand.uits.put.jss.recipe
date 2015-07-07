@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>This recipe will grab the Version of Garageband installed on the current Mac and repackage it.</string>
 	<key>Identifier</key>
-	<string>com.github.darklordbrock.jss.put.uits.current.garageband</string>
+	<string>com.github.darklordbrock.jss.put.uits.garageband</string>
 	<key>Input</key>
 	<dict>
 		<key>SCOPE</key>
