@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>This recipe will grab an app installed on the current Mac, repackage it. Run with -k NAME=AppName for other apps.</string>
 	<key>Identifier</key>
-	<string>com.github.darklordbrock.jss.uits.current.genericMASapp</string>
+	<string>com.github.darklordbrock.jss.put.uits.genericMASapp</string>
 	<key>Input</key>
 	<dict>
 		<key>SCOPE</key>
