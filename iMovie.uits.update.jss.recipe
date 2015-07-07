@@ -10,10 +10,6 @@
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
-            <key>NAME</key>
-            <string>iMovie</string>
-            <key>CATEGORY</key>
-            <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
             <string>Multimedia</string>
             <key>POLICY_TEMPLATE</key>
@@ -30,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.scriptingosx.pkg.iMovie</string>
+        <string>com.github.darklordbrock.jss.put.uits.iMovie</string>
         <key>Process</key>
         <array>
             <dict>
