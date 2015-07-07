@@ -84,7 +84,7 @@
 					<key>options</key>
 					<string>purge_ds_store</string>
 					<key>pkgname</key>
-					<string>%SCOPE%-%VENDER%-%NAME%</string>
+					<string>%SCOPE%VENDER%NAME%</string>
 					<key>pkgroot</key>
 					<string>%pathname%</string>
 					<key>version</key>
