@@ -5,17 +5,17 @@
     <key>Description</key>
     <string>Downloads the latest TextWrangler and creates a package.</string>
     <key>Identifier</key>
-    <string>com.github.darklordbrock.jss.put.uits.current.TextWrangler</string>
+    <string>com.github.darklordbrock.jss.put.uits.TextWrangler</string>
     <key>Input</key>
     <dict>
-        <key>NAME</key>
-        <string>TextWrangler</string>
-        <key>SCOPE</key>
-        <string>All-8Auto-</string>
-        <key>CATEGORY</key>
-        <string>AutoPkgr</string>
-        <key>VENDER</key>
-        <string>BareBones-</string>
+      <key>SCOPE</key>
+      <string>All-8Auto-</string>
+      <key>VENDER</key>
+      <string>BareBones-</string>
+      <key>NAME</key>
+      <string>TextWrangler</string>
+      <key>CATEGORY</key>
+      <string>AutoPkgr</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
