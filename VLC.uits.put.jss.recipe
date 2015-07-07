@@ -5,9 +5,13 @@
     <key>Description</key>
     <string>Downloads latest VLC disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.darklordbrock..jss.put.uits.VLC</string>
+    <string>com.github.darklordbrock.jss.put.uits.VLC</string>
     <key>Input</key>
     <dict>
+      <key>SCOPE</key>
+      <string>All-8Auto-</string>
+      <key>VENDER</key>
+      <string>VideoLAN-</string>
       <key>NAME</key>
       <string>VLC</string>
       <key>CATEGORY</key>
@@ -76,7 +80,7 @@
             <key>Arguments</key>
             <dict>
                 <key>pkgname</key>
-                <string>All-0Current-VideoLAN-%NAME%</string>
+                <string>%SCOPE%VENDER%NAME%</string>
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgdir</key>
@@ -102,19 +106,15 @@
             </dict>
         </dict>
         <dict>
-            <key>Arguments</key>
-            <dict>
-                <key>prod_name</key>
-                <string>%NAME%</string>
-                <key>category</key>
-                <string>%CATEGORY%</string>
-                <key>self_service_icon</key>
-                <string>%ICON%</string>
-                <key>self_service_description</key>
-                <string>%DESCRIPTION%</string>
-            </dict>
-            <key>Processor</key>
-            <string>JSSImporter</string>
+        <key>Arguments</key>
+          <dict>
+            <key>prod_name</key>
+            <string>%NAME%</string>
+            <key>category</key>
+            <string>%CATEGORY%</string>
+          </dict>
+          <key>Processor</key>
+          <string>JSSImporter</string>
         </dict>
     </array>
 </dict>
