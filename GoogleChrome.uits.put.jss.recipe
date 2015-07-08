@@ -9,11 +9,13 @@
     <key>Input</key>
     <dict>
       <key>SCOPE</key>
-  		<string>All-8Auto-</string>
-  		<key>VENDER</key>
+      <string>All-8Auto-</string>
+      <key>VENDER</key>
       <string>Google-</string>
       <key>NAME</key>
       <string>GoogleChrome</string>
+      <key>CATEGORY</key>
+      <string>AutoPkgr</string>
     </dict>
     <key>ParentRecipe</key>
     <string>com.github.autopkg.download.googlechrome</string>
@@ -61,7 +63,7 @@
                 <key>pkg_request</key>
                 <dict>
                     <key>pkgname</key>
-                    <string>%SCOPE%VENDER%NAME%</string>
+                    <string>%SCOPE%%VENDER%%NAME%</string>
                     <key>version</key>
                     <string>%version%</string>
                     <key>id</key>
