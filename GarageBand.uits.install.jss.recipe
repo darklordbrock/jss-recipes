@@ -24,7 +24,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.uits.current.garageband</string>
+        <string>com.github.darklordbrock.jss.put.uits.garageband</string>
         <key>Process</key>
         <array>
             <dict>
