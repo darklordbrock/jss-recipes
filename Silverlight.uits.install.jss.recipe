@@ -10,10 +10,6 @@
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
-            <key>NAME</key>
-            <string>Silverlight</string>
-            <key>CATEGORY</key>
-            <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
             <string>Plug-ins</string>
             <key>POLICY_TEMPLATE</key>
@@ -30,7 +26,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.Silverlight</string>
+        <string>com.github.darklordbrock.jss.put.uits.Silverlight</string>
         <key>Process</key>
         <array>
             <!--The parent recipe results in a bundle-style package, which can be

@@ -10,8 +10,6 @@
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
-            <key>CATEGORY</key>
-            <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
             <string>Multimedia</string>
             <key>POLICY_TEMPLATE</key>
