@@ -12,6 +12,6 @@
 		<string>delete</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.scriptingosx.pkg.genericMASapp</string>
+	<string>com.github.darklordbrock.jss.put.uits.genericMASapp</string>
 </dict>
 </plist>
