@@ -15,7 +15,7 @@
             <key>CATEGORY</key>
             <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
-            <string>Office</string>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/MSOffice2011/UITS-Update-Office-PolicyTemplate.xml</string>
             <key>ICON</key>
