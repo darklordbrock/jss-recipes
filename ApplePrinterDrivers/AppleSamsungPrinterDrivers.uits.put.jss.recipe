@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string></string>
+    <key>Identifier</key>
+    <string>com.github.darklordbrock.jss.put.uits.SamsungPrinterDrivers</string>
+    <key>Input</key>
+    <dict>
+      <key>SCOPE</key>
+      <string>All-8Auto-</string>
+      <key>VENDER</key>
+      <string>Apple-</string>
+      <key>NAME</key>
+      <string>SamsungPrinterDrivers</string>
+      <key>CATEGORY</key>
+      <string>AutoPkgr</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.n8felton.download.SamsungPrinterDrivers</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>PkgCopier</string>
+            <key>Arguments</key>
+            <dict>
+                <key>source_pkg</key>
+                <string>%pathname%/*.pkg</string>
+                <key>pkg_path</key>
+                <string>%RECIPE_CACHE_DIR%/%SCOPE%%VENDER%%NAME%.pkg</string>
+            </dict>
+        </dict>
+        <dict>
+          <key>Arguments</key>
+          <dict>
+              <key>prod_name</key>
+              <string>%NAME%</string>
+              <key>category</key>
+              <string>%CATEGORY%</string>
+          </dict>
+          <key>Processor</key>
+          <string>JSSImporter</string>
+        </dict>
+    </array>
+</dict>
+</plist>
