@@ -17,7 +17,7 @@ combination is offered.</string>
             <key>SITE_NAME</key>
             <string>UITS</string>
             <key>POLICY_CATEGORY</key>
-            <string>Browsers</string>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/Firefox/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
