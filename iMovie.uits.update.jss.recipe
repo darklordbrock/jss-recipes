@@ -17,7 +17,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/icons/iMovie.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Templates-default/UWM-Update-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/MAS/MASApps-Update-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>DESCRIPTION</key>
