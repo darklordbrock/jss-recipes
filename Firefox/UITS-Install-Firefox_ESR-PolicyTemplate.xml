@@ -3,7 +3,7 @@
         <site>
           <name>%SITE_NAME%</name>
         </site>
-        <name>Firefox</name>
+        <name>Firefox %SITE_NAME%</name>
         <enabled>true</enabled>
         <frequency>Once every week</frequency>
         <category>
