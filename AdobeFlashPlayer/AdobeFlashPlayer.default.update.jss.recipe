@@ -13,11 +13,11 @@
             <key>POLICY_CATEGORY</key>
             <string>Plug-ins</string>
             <key>POLICY_TEMPLATE</key>
-            <string>Templates-default/UWM-Update-PolicyTemplate.xml</string>
+            <string>/Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>Adobe-Flash</string>
             <key>GROUP_TEMPLATE</key>
-            <string>AdobeFlashPlayer/UWM-Update-Flash-SmartGroupTemplate.xml</string>
+            <string>/AdobeFlashPlayer/UWM-Update-Flash-SmartGroupTemplate.xml</string>
             <key>ICON</key>
             <string>icons/AdobeFlashPlayer.png</string>
         </dict>
