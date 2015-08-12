@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads Adobe Flash Player installer and extracts the embedded package. No repackaging done.</string>
     <key>Identifier</key>
-    <string>com.github.darklordbrock.jss.put.uits.AdobeFlashPlayer</string>
+    <string>com.github.darklordbrock.jss.put.AdobeFlashPlayer</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
