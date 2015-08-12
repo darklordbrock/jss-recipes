@@ -11,9 +11,9 @@
             <key>SITE_NAME</key>
             <string>UITS</string>
             <key>POLICY_TEMPLATE</key>
-            <string>/Templates-default/UWM-Update-PolicyTemplate.xml</string>
+            <string>Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
-            <string>/AdobeFlashPlayer/UWM-Update-Flash-SmartGroupTemplate.xml</string>
+            <string>AdobeFlashPlayer/UWM-Update-Flash-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
