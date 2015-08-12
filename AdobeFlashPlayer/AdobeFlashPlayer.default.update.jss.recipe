@@ -5,11 +5,11 @@
         <key>Description</key>
         <string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.update.default.AdobeFlashPlayer</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>UITS</string>
+            <string>None</string>
             <key>POLICY_CATEGORY</key>
             <string>Plug-ins</string>
             <key>POLICY_TEMPLATE</key>
@@ -17,14 +17,14 @@
             <key>GROUP_NAME</key>
             <string>Adobe-Flash</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/AdobeFlashPlayer/UITS-Update-Flash-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/AdobeFlashPlayer/UWM-Update-Flash-SmartGroupTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/icons/AdobeFlashPlayer.png</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.uits.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.put.AdobeFlashPlayer</string>
         <key>Process</key>
         <array>
             <dict>
