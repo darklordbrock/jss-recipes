@@ -10,6 +10,8 @@
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
