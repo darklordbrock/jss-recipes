@@ -11,19 +11,19 @@ Examples include 'en-US', 'de', 'ja-JP-mac', 'sv-SE', and 'zh-TW'
 No idea if all Firefox builds are available in all the same localizations, so you may need to verify that any particular
 combination is offered.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.Firefox_ESR</string>
+        <string>com.github.darklordbrock.jss.update.default.Firefox_ESR</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>UITS</string>
+            <string>Testing</string>
             <key>POLICY_CATEGORY</key>
             <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Firefox/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/icons/Firefox.png</string>
+            <string>%RECIPE_DIR%/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Firefox/UITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/UITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%VENDER%-%NAME%</string>
             <key>DESCRIPTION</key>
@@ -32,7 +32,7 @@ combination is offered.</string>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.uits.Firefox_ESR</string>
+        <string>com.github.darklordbrock.jss.put.Firefox_ESR</string>
         <key>Process</key>
         <array>
             <dict>
