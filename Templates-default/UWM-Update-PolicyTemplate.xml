@@ -9,9 +9,12 @@
         <category>
             <name>%POLICY_CATEGORY%</name>
         </category>
-        <trigger_startup>true</trigger_startup>
+        <trigger_checkin>true</trigger_checkin>
+        <trigger_enrollment_complete>false</trigger_enrollment_complete>
         <trigger_login>true</trigger_login>
         <trigger_logout>true</trigger_logout>
+        <trigger_network_state_changed>false</trigger_network_state_changed>
+        <trigger_startup>true</trigger_startup>
     </general>
 	<scope>
 		<!--Scope added by JSSImporter-->
