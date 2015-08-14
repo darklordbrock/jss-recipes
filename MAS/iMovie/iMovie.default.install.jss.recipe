@@ -5,26 +5,28 @@
         <key>Description</key>
         <string></string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.Numbers</string>
+        <string>com.github.darklordbrock.jss.install.default.iMovie</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>UITS</string>
+            <string>Testing</string>
             <key>POLICY_CATEGORY</key>
-            <string>Updates</string>
+            <string>Multimedia</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Templates-default/UWM-Update-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../../Templates-default/UWM-Install-PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/icons/Numbers.png</string>
+            <string>%RECIPE_DIR%/iMovie.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/MAS/MASApps-Update-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/../MASApps-Install-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
+            <key>DESCRIPTION</key>
+            <string>Video Editting</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.uits.Numbers</string>
+        <string>com.github.darklordbrock.jss.put.iMovie</string>
         <key>Process</key>
         <array>
             <dict>

@@ -2,17 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Description</key>
+	<string>This recipe will grab the Version of Keynote installed on the current Mac and repackage it.</string>
 	<key>Identifier</key>
-	<string>com.github.darklordbrock.jss.put.uits.Pages</string>
+	<string>com.github.darklordbrock.jss.put.keynote</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Pages</string>
+		<string>Keynote</string>
 		<key>mas_action</key>
 		<string>delete</string>
 	</dict>
-	<key>MinimumVersion</key>
-	<string>0.4.0</string>
 	<key>ParentRecipe</key>
 	<string>com.github.darklordbrock.jss.put.uits.genericMASapp</string>
 </dict>

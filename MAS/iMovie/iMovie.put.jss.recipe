@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.darklordbrock.jss.put.uits.Numbers</string>
+	<string>com.github.darklordbrock.jss.put.iMovie</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
-		<string>Numbers</string>
+		<string>iMovie</string>
 		<key>mas_action</key>
 		<string>delete</string>
 	</dict>
