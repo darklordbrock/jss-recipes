@@ -5,7 +5,7 @@
         <key>Description</key>
         <string></string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.uits.default.iMovie</string>
+        <string>com.github.darklordbrock.jss.uits.uits.iMovie</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
