@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.install.uits.GoogleChrome</string>
+        <string>com.github.darklordbrock.jss.install.uits.googlechrome</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
@@ -20,6 +20,6 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.install.default.GoogleChrome</string>
+        <string>com.github.darklordbrock.jss.install.default.googlechrome</string>
     </dict>
 </plist>
