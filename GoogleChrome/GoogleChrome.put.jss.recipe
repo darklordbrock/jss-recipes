@@ -3,34 +3,22 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads Firefox disk image and builds a package.
-Values for RELEASE correspond to directories here: http://download-origin.cdn.mozilla.net/pub/mozilla.org/firefox/releases/
-Some useful values are: 'latest', 'latest-10.0esr', 'latest-esr', 'latest-3.6', 'latest-beta'
-LOCALE corresponds to directories at http://download-origin.cdn.mozilla.net/pub/mozilla.org/firefox/releases/$RELEASE/mac/
-Examples include 'en-US', 'de', 'ja-JP-mac', 'sv-SE', and 'zh-TW'
-No idea if all Firefox builds are available in all the same localizations, so you may need to verify that any particular
-combination is offered.</string>
+    <string>Downloads latest Google Chrome disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>com.github.darklordbrock.jss.put.uits.Firefox_ESR</string>
+    <string>com.github.darklordbrock.jss.put.googlechrome</string>
     <key>Input</key>
     <dict>
-        <key>NAME</key>
-        <string>Firefox_ESR</string>
-        <key>VENDER</key>
-        <string>Mozilla-</string>
-        <key>CATEGORY</key>
-        <string>AutoPkgr</string>
-        <key>LOCALE</key>
-        <string>en_US</string>
-        <key>RELEASE</key>
-        <string>latest-esr</string>
-        <key>SCOPE</key>
-    		<string>All-8Auto-</string>
+      <key>SCOPE</key>
+      <string>All-8Auto-</string>
+      <key>VENDER</key>
+      <string>Google-</string>
+      <key>NAME</key>
+      <string>GoogleChrome</string>
+      <key>CATEGORY</key>
+      <string>AutoPkgr</string>
     </dict>
-    <key>MinimumVersion</key>
-    <string>0.4.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.autopkg.download.firefox-rc-en_US</string>
+    <string>com.github.autopkg.download.googlechrome</string>
     <key>Process</key>
     <array>
         <dict>
@@ -62,9 +50,9 @@ combination is offered.</string>
             <key>Arguments</key>
             <dict>
                 <key>source_path</key>
-                <string>%pathname%/Firefox.app</string>
+                <string>%pathname%/%app_name%</string>
                 <key>destination_path</key>
-                <string>%pkgroot%/Applications/Firefox.app</string>
+                <string>%pkgroot%/Applications/%app_name%</string>
             </dict>
         </dict>
         <dict>
@@ -72,14 +60,14 @@ combination is offered.</string>
             <string>PkgCreator</string>
             <key>Arguments</key>
             <dict>
-                <key>pkgname</key>
-                <string>%SCOPE%%VENDER%%NAME%</string>
                 <key>pkg_request</key>
                 <dict>
-                    <key>pkgdir</key>
-                    <string>%RECIPE_CACHE_DIR%</string>
+                    <key>pkgname</key>
+                    <string>%SCOPE%%VENDER%%NAME%</string>
+                    <key>version</key>
+                    <string>%version%</string>
                     <key>id</key>
-                    <string>org.mozilla.firefox.pkg</string>
+                    <string>%bundleid%</string>
                     <key>options</key>
                     <string>purge_ds_store</string>
                     <key>chown</key>
