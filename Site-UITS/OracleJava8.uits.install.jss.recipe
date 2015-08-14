@@ -19,7 +19,7 @@ http://www.oracle.com/technetwork/java/javase/terms/license/index.html
             <key>POLICY_CATEGORY</key>
             <string>Plug-ins</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Template-default/Templates-default/UWM-Install-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/../OracleJava8/OracleJava8.png</string>
             <key>GROUP_NAME</key>
