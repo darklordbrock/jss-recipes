@@ -15,7 +15,7 @@
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../../Templates-default/UWM-Install-PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/icons/Keynote.png</string>
+            <string>%RECIPE_DIR%/Keynote.png</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/../MASApps-Install-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
