@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Oracle Java 8 JDK and creates a package.</string>
 	<key>Identifier</key>
-	<string>com.github.darklordbrock.jss.put.uits.OracleJava8JDK</string>
+	<string>com.github.darklordbrock.jss.put.OracleJava8JDK</string>
 	<key>Input</key>
 	<dict>
 		<key>SCOPE</key>
