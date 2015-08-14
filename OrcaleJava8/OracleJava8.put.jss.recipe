@@ -12,7 +12,7 @@ To use this recipe, you must accept the Oracle Binary Code License Agreement for
 http://www.oracle.com/technetwork/java/javase/terms/license/index.html
 </string>
     <key>Identifier</key>
-    <string>com.github.darklordbrock.jss.put.uits.OracleJava8</string>
+    <string>com.github.darklordbrock.jss.put.OracleJava8</string>
     <key>Input</key>
     <dict>
       <key>SCOPE</key>
