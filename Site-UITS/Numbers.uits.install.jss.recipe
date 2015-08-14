@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string></string>
+        <key>Identifier</key>
+        <string>com.github.darklordbrock.jss.install.uits.Numbers</string>
+        <key>Input</key>
+        <dict>
+            <key>SITE_NAME</key>
+            <string>UITS</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Office</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
+            <key>ICON</key>
+            <string>%RECIPE_DIR%/../MAS/Numbers/Numbers.png</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../MAS/MASApps-Install-SmartGroupTemplate.xml</string>
+            <key>GROUP_NAME</key>
+            <string>%NAME%</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.4.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.darklordbrock.jss.install.default.Numbers</string>
+    </dict>
+</plist>
