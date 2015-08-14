@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>Identifier</key>
-    <string>com.github.darklordbrock.jss.put.uits.Office2011Updates</string>
+    <string>com.github.darklordbrock.jss.put.Office2011Updates</string>
     <key>Input</key>
     <dict>
         <key>SCOPE</key>

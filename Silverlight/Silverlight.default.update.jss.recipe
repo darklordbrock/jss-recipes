@@ -3,39 +3,36 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads latest MS Office 2011 installer and uploads to the JSS.</string>
+        <string>Downloads latest Silverlight installer, copies the package to the build directory with an appended version number, and uploads to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.Office2011Updates</string>
+        <string>com.github.darklordbrock.jss.updated.default.Silverlight</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>UITS</string>
-            <key>NAME</key>
-            <string>Office2011Update</string>
-            <key>CATEGORY</key>
-            <string>AutoPkgr</string>
+            <string>Testing</string>
             <key>POLICY_CATEGORY</key>
             <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/MSOffice2011/UITS-Update-Office-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/icons/MSOffice.png</string>
+            <string>%RECIPE_DIR%/Silverlight.png</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/MSOffice2011/UITS-Update-Office-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/UITS-Update-Silverlight-SmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
-            <string>Updates to MS Office 2011.</string>
+            <string/>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.autopkg.pkg.Office2011Updates</string>
+        <string>com.github.darklordbrock.jss.put.Silverlight</string>
         <key>Process</key>
         <array>
+            <!--The parent recipe results in a bundle-style package, which can be
+            problematic for non-AFP repos; eventually fix to wrap in a flat-pkg
+        -->
             <dict>
-                <key>Processor</key>
-                <string>JSSImporter</string>
                 <key>Arguments</key>
                 <dict>
                     <key>prod_name</key>
@@ -62,6 +59,8 @@
                         </dict>
                     </array>
                 </dict>
+                <key>Processor</key>
+                <string>JSSImporter</string>
             </dict>
         </array>
     </dict>
