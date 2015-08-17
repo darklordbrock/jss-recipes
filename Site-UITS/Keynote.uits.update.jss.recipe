@@ -5,25 +5,25 @@
         <key>Description</key>
         <string></string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.install.uits.Keynote</string>
+        <string>com.github.darklordbrock.jss.update.uits.Keynote</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
             <key>POLICY_CATEGORY</key>
-            <string>Office</string>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/../MAS/Keynote/Keynote.png</string>
+            <string>%RECIPE_DIR%/../MAS/Keynote.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../MAS/MASApps-Install-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/../MAS/MASApps-Update-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.install.default.Keynote</string>
+        <string>com.github.darklordbrock.jss.update.default.Keynote</string>
     </dict>
 </plist>
