@@ -15,7 +15,7 @@
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/../MAS/Numbers/Numbers.png</string>
+            <string>%RECIPE_DIR%/../MAS/Numbers.png</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/../MAS/MASApps-Update-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
