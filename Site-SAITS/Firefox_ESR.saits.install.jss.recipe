@@ -11,11 +11,11 @@
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Firefox/SAITS-Install-Firefox_ESR-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/SAITS-Install-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/../Firefox/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Firefox/SAITS-Install-Firefox_ESR-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/SAITS-Install-Firefox_ESR-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
