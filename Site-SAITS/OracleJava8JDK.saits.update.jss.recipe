@@ -17,7 +17,7 @@
 		<key>GROUP_NAME</key>
 		<string>%NAME%</string>
 		<key>GROUP_TEMPLATE</key>
-		<string>%RECIPE_DIR%/../OracleJava8/UITS-Update-JavaJDK8-SmartGroupTemplate.xml</string>
+		<string>%RECIPE_DIR%/Policy_Smart-Templates/SAITS-Update-JavaJDK8-SmartGroupTemplate.xml</string>
 		<key>ICON</key>
 		<string>%RECIPE_DIR%/../OracleJava8/OracleJava8.png</string>
 		<key>POLICY_CATEGORY</key>

@@ -25,7 +25,7 @@ http://www.oracle.com/technetwork/java/javase/terms/license/index.html
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../OracleJava8/UITS-Update-Java8-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/SAITS-Update-Java8-SmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
             <string></string>
             <!--PlistReader w/o variable injection in AutoPkg requires this-->
