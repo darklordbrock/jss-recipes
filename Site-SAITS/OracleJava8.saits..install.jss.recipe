@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>Downloads the latest Oracle Java 8 JRE and copies out the flat installer pkg
+within, appending the version number to the filename. (Note the version of the actual
+pkg id for the com.oracle.jre pkg component is still always "1.0".)
+
+To use this recipe, you must accept the Oracle Binary Code License Agreement for Java SE.
+http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+ Then, uploads to the JSS.</string>
+        <key>Identifier</key>
+        <string>com.github.darklordbrock.jss.install.uits.OracleJava8</string>
+        <key>Input</key>
+        <dict>
+            <key>SITE_NAME</key>
+            <string>UITS</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Plug-ins</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
+            <key>ICON</key>
+            <string>%RECIPE_DIR%/../OracleJava8/OracleJava8.png</string>
+            <key>GROUP_NAME</key>
+            <string>%NAME%</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../OracleJava8/UITS-Install-Java8-SmartGroupTemplate.xml</string>
+            <key>DESCRIPTION</key>
+            <string></string>
+            <!--PlistReader w/o variable injection in AutoPkg requires this-->
+            <key>version</key>
+            <string/>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.4.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.darklordbrock.jss.install.default.OracleJava8</string>
+    </dict>
+</plist>
