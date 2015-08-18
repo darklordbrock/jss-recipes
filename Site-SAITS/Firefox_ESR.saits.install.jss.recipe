@@ -7,15 +7,15 @@
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>SAITS</string>
+            <string>SA</string>
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Firefox/UITS-Install-Firefox_ESR-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Firefox/SAITS-Install-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/../Firefox/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Firefox/UITS-Install-Firefox_ESR-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Firefox/SAITS-Install-Firefox_ESR-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

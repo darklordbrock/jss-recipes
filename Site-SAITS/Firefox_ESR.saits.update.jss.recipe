@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.default.Firefox_ESR</string>
+        <string>com.github.darklordbrock.jss.update.saits.Firefox_ESR</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
