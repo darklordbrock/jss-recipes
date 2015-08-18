@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.install.uits.googlechrome</string>
+        <string>com.github.darklordbrock.jss.install.saits.googlechrome</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
