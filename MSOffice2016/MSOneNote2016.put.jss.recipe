@@ -14,7 +14,7 @@ for more information about locale IDs.
 VERSION currently only supports 'latest'.
 </string>
     <key>Identifier</key>
-    <string>com.github.darklordbrock.jss.put.MSOutNote2016</string>
+    <string>com.github.darklordbrock.jss.put.MSOneNote2016</string>
     <key>MinimumVersion</key>
     <string>0.4.2</string>
     <key>Input</key>
