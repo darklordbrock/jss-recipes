@@ -20,8 +20,6 @@
             <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/Default-Update-Office2016-PolicyTemplate.xml</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/GoogleChrome.png</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>GROUP_TEMPLATE</key>
