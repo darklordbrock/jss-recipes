@@ -3,9 +3,9 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
+        <string>Downloads latest Silverlight installer, copies the package to the build directory with an appended version number, and uploads to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.updated.uits.Silverlight</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
@@ -14,12 +14,18 @@
             <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
+            <key>ICON</key>
+            <string>%RECIPE_DIR%/../Silverlight/Silverlight.png</string>
+            <key>GROUP_NAME</key>
+            <string>%NAME%</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../AdobeFlashPlayer/UWM-Update-Flash-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Silverlight/UITS-Update-Silverlight-SmartGroupTemplate.xml</string>
+            <key>DESCRIPTION</key>
+            <string/>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.update.default.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.updated.default.Silverlight</string>
     </dict>
 </plist>

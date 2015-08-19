@@ -3,39 +3,56 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
+        <string>Downloads the latest Oracle Java 8 JRE and copies out the flat installer pkg
+within, appending the version number to the filename. (Note the version of the actual
+pkg id for the com.oracle.jre pkg component is still always "1.0".)
+
+To use this recipe, you must accept the Oracle Binary Code License Agreement for Java SE.
+http://www.oracle.com/technetwork/java/javase/terms/license/index.html
+ Then, uploads to the JSS.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.default.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.update.default.OracleJava8</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>None</string>
+            <string>Testing</string>
             <key>POLICY_CATEGORY</key>
-            <string>Plug-ins</string>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
-            <key>GROUP_NAME</key>
-            <string>Adobe-Flash</string>
-            <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UWM-Update-Flash-SmartGroupTemplate.xml</string>
             <key>ICON</key>
-            <string>icons/AdobeFlashPlayer.png</string>
+            <string>%RECIPE_DIR%/OracleJava8.png</string>
+            <key>GROUP_NAME</key>
+            <string>%NAME%</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/UITS-Update-Java8-SmartGroupTemplate.xml</string>
+            <key>DESCRIPTION</key>
+            <string></string>
+            <!--PlistReader w/o variable injection in AutoPkg requires this-->
+            <key>version</key>
+            <string/>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.put.OracleJava8</string>
         <key>Process</key>
         <array>
             <dict>
                 <key>Arguments</key>
                 <dict>
+                    <key>prod_name</key>
+                    <string>%NAME%</string>
+                    <key>category</key>
+                    <string>%CATEGORY%</string>
                     <key>policy_category</key>
                     <string>%POLICY_CATEGORY%</string>
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>
                     <key>self_service_icon</key>
                     <string>%ICON%</string>
+                    <key>self_service_description</key>
+                    <string>%DESCRIPTION%</string>
                     <key>groups</key>
                     <array>
                         <dict>

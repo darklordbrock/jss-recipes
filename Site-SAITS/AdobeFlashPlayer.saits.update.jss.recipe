@@ -5,11 +5,11 @@
         <key>Description</key>
         <string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.update.saits.AdobeFlashPlayer</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>UITS</string>
+            <string>SA</string>
             <key>POLICY_CATEGORY</key>
             <string>Updates</string>
             <key>POLICY_TEMPLATE</key>

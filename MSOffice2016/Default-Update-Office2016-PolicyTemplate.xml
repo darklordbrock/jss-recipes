@@ -9,7 +9,7 @@
         <category>
             <name>%POLICY_CATEGORY%</name>
         </category>
-        <trigger_checkin>true</trigger_checkin>
+        <trigger_checkin>false</trigger_checkin>
         <trigger_enrollment_complete>false</trigger_enrollment_complete>
         <trigger_login>true</trigger_login>
         <trigger_logout>true</trigger_logout>

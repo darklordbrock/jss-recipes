@@ -3,39 +3,47 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
+        <string>This uploads the latest excel update and builds a smartgroup and policy.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.default.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.update.default.MSPowerPoint2016</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>None</string>
+            <string>Testing</string>
+            <key>NAME</key>
+            <string>PowerPoint_Update</string>
+            <key>JSS_INVENTORY_NAME</key>
+            <string>Microsoft PowerPoint.app</string>
+            <key>CATEGORY</key>
+            <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
-            <string>Plug-ins</string>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/Default-Update-Office2016-PolicyTemplate.xml</string>
             <key>GROUP_NAME</key>
-            <string>Adobe-Flash</string>
+            <string>%NAME%</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UWM-Update-Flash-SmartGroupTemplate.xml</string>
-            <key>ICON</key>
-            <string>icons/AdobeFlashPlayer.png</string>
+            <string>%RECIPE_DIR%/Default-Update-Office2016-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.AdobeFlashPlayer</string>
+        <string>com.github.darklordbrock.jss.put.MSPowerPoint2016</string>
         <key>Process</key>
         <array>
             <dict>
                 <key>Arguments</key>
                 <dict>
+                    <key>prod_name</key>
+                    <string>%NAME%</string>
+                    <key>jss_inventory_name</key>
+                    <string>%JSS_INVENTORY_NAME%</string>
+                    <key>category</key>
+                    <string>%CATEGORY%</string>
                     <key>policy_category</key>
                     <string>%POLICY_CATEGORY%</string>
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_icon</key>
-                    <string>%ICON%</string>
                     <key>groups</key>
                     <array>
                         <dict>
