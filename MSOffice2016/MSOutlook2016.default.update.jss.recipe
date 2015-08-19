@@ -5,15 +5,15 @@
         <key>Description</key>
         <string>This uploads the latest excel update and builds a smartgroup and policy.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.default.MSWord</string>
+        <string>com.github.darklordbrock.jss.update.default.MSOutlook2016</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
             <string>Testing</string>
             <key>NAME</key>
-            <string>Word_Update</string>
+            <string>Outlook_Update</string>
             <key>JSS_INVENTORY_NAME</key>
-            <string>Microsoft Word.app</string>
+            <string>Microsoft Outlook.app</string>
             <key>CATEGORY</key>
             <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
@@ -28,7 +28,7 @@
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.MSWord2016</string>
+        <string>com.github.darklordbrock.jss.put.MSOutlook2016</string>
         <key>Process</key>
         <array>
             <dict>
