@@ -9,7 +9,7 @@
             <key>SITE_NAME</key>
             <string>SA</string>
             <key>POLICY_CATEGORY</key>
-            <string>Browsers</string>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-update-PolicyTemplate.xml</string>
             <key>ICON</key>
