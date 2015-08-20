@@ -13,7 +13,7 @@
             <key>POLICY_TEMPLATE</key>
             <string></string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Policy_Smart-Template/LS-Update-Silverlight-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Silverlight-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
