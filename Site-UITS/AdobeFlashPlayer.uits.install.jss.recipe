@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>Downloads Adobe Flash Player installer and extracts the embedded package, uploads to JSS.</string>
+        <key>Identifier</key>
+        <string>com.github.darklordbrock.jss.install.uits.AdobeFlashPlayer</string>
+        <key>Input</key>
+        <dict>
+            <key>SITE_NAME</key>
+            <string>UITS</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Plug-ins</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%../AdobeFlashPlayer/Default-Install-Flash-SmartGroupTemplate.xml</string>
+            <key>ICON</key>
+            <string>icons/AdobeFlashPlayer.png</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.4.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.darklordbrock.jss.install.default.AdobeFlashPlayer</string>
+    </dict>
+</plist>
