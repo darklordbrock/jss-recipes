@@ -11,7 +11,7 @@
             <key>POLICY_TEMPLATE</key>
             <string></string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-update-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-update-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
