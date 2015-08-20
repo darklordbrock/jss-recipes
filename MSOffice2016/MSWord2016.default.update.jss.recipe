@@ -3,50 +3,47 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads latest Silverlight installer, copies the package to the build directory with an appended version number, and uploads to the JSS.</string>
+        <string>This uploads the latest excel update and builds a smartgroup and policy.</string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.install.default.Silverlight</string>
+        <string>com.github.darklordbrock.jss.update.default.MSWord2016</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
             <string>Testing</string>
+            <key>NAME</key>
+            <string>Word_Update</string>
+            <key>JSS_INVENTORY_NAME</key>
+            <string>Microsoft Word.app</string>
+            <key>CATEGORY</key>
+            <string>AutoPkgr</string>
             <key>POLICY_CATEGORY</key>
-            <string>Plug-ins</string>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/Silverlight.png</string>
+            <string>%RECIPE_DIR%/Default-Update-Office2016-PolicyTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UITS-Install-Silverlight-SmartGroupTemplate.xml</string>
-            <key>DESCRIPTION</key>
-            <string/>
+            <string>%RECIPE_DIR%/Default-Update-Office2016-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.Silverlight</string>
+        <string>com.github.darklordbrock.jss.put.MSWord2016</string>
         <key>Process</key>
         <array>
-            <!--The parent recipe results in a bundle-style package, which can be
-            problematic for non-AFP repos; eventually fix to wrap in a flat-pkg
-        -->
             <dict>
                 <key>Arguments</key>
                 <dict>
                     <key>prod_name</key>
                     <string>%NAME%</string>
+                    <key>jss_inventory_name</key>
+                    <string>%JSS_INVENTORY_NAME%</string>
                     <key>category</key>
                     <string>%CATEGORY%</string>
                     <key>policy_category</key>
                     <string>%POLICY_CATEGORY%</string>
                     <key>policy_template</key>
                     <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_icon</key>
-                    <string>%ICON%</string>
-                    <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
                     <key>groups</key>
                     <array>
                         <dict>

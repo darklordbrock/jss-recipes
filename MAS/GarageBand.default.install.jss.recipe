@@ -3,35 +3,30 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Downloads latest Silverlight installer, copies the package to the build directory with an appended version number, and uploads to the JSS.</string>
+        <string></string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.install.default.Silverlight</string>
+        <string>com.github.darklordbrock.jss.install.default.garageband</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
             <string>Testing</string>
             <key>POLICY_CATEGORY</key>
-            <string>Plug-ins</string>
+            <string>Multimedia</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
             <key>ICON</key>
-            <string>%RECIPE_DIR%/Silverlight.png</string>
+            <string>%RECIPE_DIR%/GarageBand.png</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/MASApps-Install-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
-            <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UITS-Install-Silverlight-SmartGroupTemplate.xml</string>
-            <key>DESCRIPTION</key>
-            <string/>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.Silverlight</string>
+        <string>com.github.darklordbrock.jss.put.garageband</string>
         <key>Process</key>
         <array>
-            <!--The parent recipe results in a bundle-style package, which can be
-            problematic for non-AFP repos; eventually fix to wrap in a flat-pkg
-        -->
             <dict>
                 <key>Arguments</key>
                 <dict>

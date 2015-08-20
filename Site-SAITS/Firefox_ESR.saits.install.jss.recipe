@@ -3,21 +3,19 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.Firefox_ESR</string>
+        <string>com.github.darklordbrock.jss.install.saits.Firefox_ESR</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>UITS</string>
+            <string>SA</string>
             <key>POLICY_CATEGORY</key>
-            <string>Updates</string>
+            <string>Browsers</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Firefox/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/SAITS-Install-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/../Firefox/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Firefox/Firefox/UITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
-            <key>DESCRIPTION</key>
-            <string>Web Browser</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/SAITS-Install-Firefox_ESR-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
