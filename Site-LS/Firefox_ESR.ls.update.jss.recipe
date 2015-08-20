@@ -2,69 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-        <key>Description</key>
-        <string>Downloads Firefox disk image and builds a package, then uploads to the JSS.
-Values for FIREFOX_BUILD correspond to directories here: http://download-origin.cdn.mozilla.net/pub/mozilla.org/firefox/releases/
-Some useful values are: 'latest', 'latest-10.0esr', 'latest-esr', 'latest-3.6', 'latest-beta'
-LOCALE corresponds to directories at http://download-origin.cdn.mozilla.net/pub/mozilla.org/firefox/releases/$FIREFOX_BUILD/mac/
-Examples include 'en-US', 'de', 'ja-JP-mac', 'sv-SE', and 'zh-TW'
-No idea if all Firefox builds are available in all the same localizations, so you may need to verify that any particular
-combination is offered.</string>
         <key>Identifier</key>
         <string>com.github.darklordbrock.jss.update.ls.Firefox_ESR</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
             <string>LS</string>
-            <key>POLICY_CATEGORY</key>
-            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Firefox/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/icons/Firefox.png</string>
+            <string></string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Firefox/LS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
-            <key>GROUP_NAME</key>
-            <string>%VENDER%-%NAME%</string>
-            <key>DESCRIPTION</key>
-            <string>Web Browser</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
         <key>ParentRecipe</key>
-        <string>com.github.darklordbrock.jss.put.uits.Firefox_ESR</string>
-        <key>Process</key>
-        <array>
-            <dict>
-                <key>Arguments</key>
-                <dict>
-                    <key>prod_name</key>
-                    <string>%NAME%</string>
-                    <key>category</key>
-                    <string>%CATEGORY%</string>
-                    <key>policy_category</key>
-                    <string>%POLICY_CATEGORY%</string>
-                    <key>policy_template</key>
-                    <string>%POLICY_TEMPLATE%</string>
-                    <key>self_service_icon</key>
-                    <string>%ICON%</string>
-                    <key>self_service_description</key>
-                    <string>%DESCRIPTION%</string>
-                    <key>groups</key>
-                    <array>
-                        <dict>
-                            <key>name</key>
-                            <string>%GROUP_NAME%</string>
-                            <key>smart</key>
-                            <true/>
-                            <key>template_path</key>
-                            <string>%GROUP_TEMPLATE%</string>
-                        </dict>
-                    </array>
-                </dict>
-                <key>Processor</key>
-                <string>JSSImporter</string>
-            </dict>
-        </array>
+        <string>com.github.darklordbrock.jss.update.default.Firefox_ESR</string>
     </dict>
 </plist>
