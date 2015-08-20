@@ -3,19 +3,15 @@
 <plist version="1.0">
     <dict>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.saits.googlechrome</string>
+        <string>com.github.darklordbrock.jss.update.ls.googlechrome</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
-            <string>SA</string>
-            <key>POLICY_CATEGORY</key>
-            <string>Updates</string>
+            <string>LS</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-update-PolicyTemplate.xml</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/../GoogleChrome/GoogleChrome.png</string>
+            <string></string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-update-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-update-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>

@@ -1,0 +1,30 @@
+<computer_group>
+  <site>
+      <name>%SITE_NAME%</name>
+  </site>
+  <name>AutoPkgr-%SITE_NAME%-Update-%VENDER%%NAME%</name>
+  <is_smart>true</is_smart>
+  <criteria>
+      <criterion>
+          <name>Application Title</name>
+          <priority>0</priority>
+          <and_or>and</and_or>
+          <search_type>is</search_type>
+          <value>Firefox.app</value>
+      </criterion>
+      <criterion>
+          <name>Application Version</name>
+          <priority>1</priority>
+          <and_or>and</and_or>
+          <search_type>is not</search_type>
+          <value>%VERSION%</value>
+      </criterion>
+      <criterion>
+          <name>Computer Group</name>
+          <priority>2</priority>
+          <and_or>and</and_or>
+          <search_type>not member of</search_type>
+          <value>1. LS Special Group-No Policies</value>
+      </criterion>
+  </criteria>
+</computer_group>

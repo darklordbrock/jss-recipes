@@ -15,7 +15,7 @@
             <key>ICON</key>
             <string>%RECIPE_DIR%/../Firefox/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Policy_Smart-Templates/Firefox/SAITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/SAITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
             <key>DESCRIPTION</key>
             <string>Web Browser</string>
         </dict>
