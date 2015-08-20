@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>Downloads latest Silverlight installer, copies the package to the build directory with an appended version number, and uploads to the JSS.</string>
+        <key>Identifier</key>
+        <string>com.github.darklordbrock.jss.install.psoa.Silverlight</string>
+        <key>Input</key>
+        <dict>
+            <key>SITE_NAME</key>
+            <string>PSOA</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Plug-ins</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
+            <key>ICON</key>
+            <string>%RECIPE_DIR%/../Silverlight/Silverlight.png</string>
+            <key>GROUP_NAME</key>
+            <string>%NAME%</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../Silverlight/UITS-Install-Silverlight-SmartGroupTemplate.xml</string>
+            <key>DESCRIPTION</key>
+            <string/>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.4.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.darklordbrock.jss.install.default.Silverlight</string>
+    </dict>
+</plist>
