@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string></string>
+	<key>Description</key>
+	<string>Downloads the latest version of Oracle Java 8 JDK and creates a package. Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.darklordbrock.jss.update.ls.OracleJava8JDK</string>
+	<key>Input</key>
+	<dict>
+		<key>SITE_NAME</key>
+		<string>LS</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-JavaJDK8-SmartGroupTemplate.xml</string>
+		<key>POLICY_TEMPLATE</key>
+		<string></string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.darklordbrock.jss.update.default.OracleJava8JDK</string>
+</dict>
+</plist>
