@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Identifier</key>
+        <string>com.github.darklordbrock.jss.update.psoa.googlechrome</string>
+        <key>Input</key>
+        <dict>
+            <key>SITE_NAME</key>
+            <string>PSOA</string>
+            <key>POLICY_CATEGORY</key>
+            <string>Updates</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-update-PolicyTemplate.xml</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-update-SmartGroupTemplate.xml</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.4.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.darklordbrock.jss.update.default.googlechrome</string>
+    </dict>
+</plist>

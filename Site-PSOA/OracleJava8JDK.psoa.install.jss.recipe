@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string></string>
+	<key>Description</key>
+	<string>Downloads the latest version of Oracle Java 8 JDK and creates a package. Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.darklordbrock.jss.install.psoa.OracleJava8JDK</string>
+	<key>Input</key>
+	<dict>
+		<key>SITE_NAME</key>
+		<string>PSOA</string>
+		<key>DESCRIPTION</key>
+		<string></string>
+		<key>GROUP_NAME</key>
+		<string>%NAME%</string>
+		<key>GROUP_TEMPLATE</key>
+		<string>%RECIPE_DIR%/Policy_Smart-Templates/PSOA-Install-JavaJDK8-SmartGroupTemplate.xml</string>
+		<key>ICON</key>
+		<string>%RECIPE_DIR%/../OracleJava8/OracleJava8.png</string>
+		<key>POLICY_CATEGORY</key>
+		<string>Plug-ins</string>
+		<key>POLICY_TEMPLATE</key>
+		<string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.darklordbrock.jss.install.default.OracleJava8JDK</string>
+</dict>
+</plist>
