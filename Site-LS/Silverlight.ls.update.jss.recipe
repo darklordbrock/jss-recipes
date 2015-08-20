@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>Downloads latest Silverlight installer, copies the package to the build directory with an appended version number, and uploads to the JSS.</string>
+        <key>Identifier</key>
+        <string>com.github.darklordbrock.jss.updated.ls.Silverlight</string>
+        <key>Input</key>
+        <dict>
+            <key>SITE_NAME</key>
+            <string>LS</string>
+            <key>POLICY_TEMPLATE</key>
+            <string></string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Silverlight-SmartGroupTemplate.xml</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.4.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.darklordbrock.jss.updated.default.Silverlight</string>
+    </dict>
+</plist>
