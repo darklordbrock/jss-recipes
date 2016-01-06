@@ -8,6 +8,8 @@
 	<dict>
 		<key>NAME</key>
 		<string>OneDrive</string>
+		<key>VENDER</key>
+		<string>Microsoft-</string>
 		<key>mas_action</key>
 		<string>delete</string>
 	</dict>
