@@ -5,7 +5,7 @@
         <key>Description</key>
         <string></string>
         <key>Identifier</key>
-        <string>com.github.darklordbrock.jss.update.uits.OneDrive</string>
+        <string>com.github.darklordbrock.jss.update.psoa.OneDrive</string>
         <key>Input</key>
         <dict>
             <key>SITE_NAME</key>
