@@ -16,8 +16,6 @@
         <trigger_network_state_changed>false</trigger_network_state_changed>
         <trigger_startup>true</trigger_startup>
         <date_time_limitations>
-          <no_execute_start>7:00 AM</no_execute_start>
-          <no_execute_end>1:00 AM</no_execute_end>
           <no_execute_on>
             <day>Mon</day>
             <day>Tue</day>
@@ -26,6 +24,8 @@
             <day>Fri</day>
             <day>Sat</day>
           </no_execute_on>
+          <no_execute_start>7:00 AM</no_execute_start>
+          <no_execute_end>11:59 PM</no_execute_end>
         </date_time_limitations>
         <reboot>
           <message>This computer will restart in 5 minutes. Please save anything you are working on and log out by choosing Log Out from the bottom of the Apple menu.</message>
