@@ -10,7 +10,7 @@
           <priority>0</priority>
           <and_or>and</and_or>
           <search_type>is not</search_type>
-            <value>Not Installed</value>
+          <value>Not Installed</value>
       </criterion>
       <criterion>
           <name>Adobe Flash Version</name>

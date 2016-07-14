@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>com.github.darklordbrock.jss.put.Xcode</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Xcode</string>
+		<key>mas_action</key>
+		<string>delete</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.11.x</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.darklordbrock.jss.put.uits.genericMASapp</string>
+	<key>MinimumVersion</key>
+	<string>0.2.9</string>
+	<key>Process</key>
+	<array>
+		<dict>
+				<key>Arguments</key>
+				<dict>
+						<key>prod_name</key>
+						<string>%NAME%</string>
+						<key>category</key>
+						<string>%CATEGORY%</string>
+						<key>self_service_icon</key>
+						<string>%ICON%</string>
+						<key>self_service_description</key>
+						<string>%DESCRIPTION%</string>
+						<key>os_requirements</key>
+						<string>%OS_REQUIREMENTS%</string>
+				</dict>
+				<key>Processor</key>
+				<string>JSSImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>
