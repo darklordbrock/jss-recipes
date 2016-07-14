@@ -100,6 +100,13 @@
 			<string>PkgCreator</string>
 		</dict>
 		<dict>
+			<key>Arguments</key>
+			<dict>
+					<key>prod_name</key>
+					<string>%NAME%</string>
+					<key>category</key>
+					<string>%CATEGORY%</string>
+			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
 		</dict>
