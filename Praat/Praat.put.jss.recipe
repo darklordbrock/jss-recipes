@@ -3,24 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Packages the Praat Download.</string>
+		<string>Packages the Praat Download.</string>
 	<key>Identifier</key>
-	<string>com.github.darklordbrock.jss.put.Praat</string>
+		<string>com.github.darklordbrock.jss.put.Praat</string>
 	<key>Input</key>
-	<dict>
-		<key>NAME</key>
-		<string>Praat</string>
-		<key>VENDER</key>
-		<string>Praat-</string>
-		<key>CATEGORY</key>
-		<string>AutoPkgr</string>
-		<key>SCOPE</key>
-		<string>All-8Auto-</string>
-	</dict>
+		<dict>
+			<key>NAME</key>
+			<string>Praat</string>
+			<key>VENDER</key>
+			<string>Praat-</string>
+			<key>CATEGORY</key>
+			<string>AutoPkgr</string>
+			<key>SCOPE</key>
+			<string>All-8Auto-</string>
+		</dict>
 	<key>MinimumVersion</key>
-	<string>0.2.9</string>
+		<string>0.2.9</string>
 	<key>ParentRecipe</key>
-	<string>com.github.autopkg.download.Praat</string>
+		<string>com.github.autopkg.download.Praat</string>
 	<key>Process</key>
 		<array>
 			<dict>
