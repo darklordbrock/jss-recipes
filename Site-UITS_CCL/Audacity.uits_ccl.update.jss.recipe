@@ -10,35 +10,13 @@
 	<dict>
 			<key>SITE_NAME</key>
 			<string>UITS_CCL</string>
+			<key>POLICY_CATEGORY</key>
+			<string>Updates</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.9</string>
 	<key>ParentRecipe</key>
 	<string>com.github.darklordbrock.jss.update.default.audacity</string>
 	<key>Process</key>
-	<array>
-		<dict>
-				<key>Arguments</key>
-				<dict>
-						<key>policy_category</key>
-						<string>%POLICY_CATEGORY%</string>
-						<key>policy_template</key>
-						<string>%POLICY_TEMPLATE%</string>
-						<key>groups</key>
-						<array>
-								<dict>
-										<key>name</key>
-										<string>%GROUP_NAME%</string>
-										<key>smart</key>
-										<true/>
-										<key>template_path</key>
-										<string>%GROUP_TEMPLATE%</string>
-								</dict>
-						</array>
-				</dict>
-				<key>Processor</key>
-				<string>JSSImporter</string>
-		</dict>
-	</array>
 </dict>
 </plist>
