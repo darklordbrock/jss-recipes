@@ -17,6 +17,5 @@
 	<string>0.2.9</string>
 	<key>ParentRecipe</key>
 	<string>com.github.darklordbrock.jss.install.default.audacity</string>
-	<key>Process</key>
 </dict>
 </plist>
