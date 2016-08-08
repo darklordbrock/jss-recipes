@@ -16,6 +16,10 @@
 		<string>AutoPkgr</string>
 		<key>SCOPE</key>
 		<string>All-8Auto-</string>
+		<key>DISABLE_CODE_SIGNATURE_VERIFICATION</key>
+		<string>False</string>
+		<key>version</key>
+		<string></string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.6.0</string>
@@ -25,22 +29,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>re_pattern</key>
-				<string>&lt;a href="(R-[\d.]+\.pkg)"&gt;R-[\d.]+\.pkg&lt;/a&gt;</string>
-				<key>result_output_var_name</key>
-				<string>filename</string>
-				<key>url</key>
-				<string>https://cran.r-project.org/bin/macosx/</string>
-			</dict>
-			<key>Processor</key>
-			<string>URLTextSearcher</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>re_pattern</key>
-				<string>&lt;a href="R-([\d.]+)\.pkg"&gt;R-[\d.]+\.pkg&lt;/a&gt;</string>
-				<key>result_output_var_name</key>
-				<string>version</string>
+				<string>&lt;a href="(?P&lt;filename&gt;R-(?P&lt;version&gt;[\d.]+)\.pkg)"&gt;R-[\d.]+\.pkg&lt;/a&gt;</string>
 				<key>url</key>
 				<string>https://cran.r-project.org/bin/macosx/</string>
 			</dict>
@@ -56,58 +45,6 @@
 			<key>Processor</key>
 			<string>URLDownloader</string>
 		</dict>
-		<dict>
-			<key>Processor</key>
-			<string>EndOfCheckPhase</string>
-		</dict>
-		<dict>
-			<key>Arguments</key>
-			<dict>
-				<key>expected_authority_names</key>
-				<array>
-					<string>Developer ID Installer: Simon Urbanek</string>
-					<string>Developer ID Certification Authority</string>
-					<string>Apple Root CA</string>
-				</array>
-				<key>input_path</key>
-				<string>%pathname%</string>
-			</dict>
-			<key>Processor</key>
-			<string>CodeSignatureVerifier</string>
-		</dict>
-		<dict>
-	        <key>Processor</key>
-	        <string>FlatPkgUnpacker</string>
-	        <key>Arguments</key>
-	        <dict>
-	            <key>flat_pkg_path</key>
-	            <string>%pathname%</string>
-	            <key>destination_path</key>
-	            <string>%RECIPE_CACHE_DIR%/unpack</string>
-	        </dict>
-	    </dict>
-	    <dict>
-	        <key>Processor</key>
-	        <string>PkgPayloadUnpacker</string>
-	        <key>Arguments</key>
-	        <dict>
-	            <key>pkg_payload_path</key>
-	            <string>%RECIPE_CACHE_DIR%/unpack/r.pkg/Payload</string>
-	            <key>destination_path</key>
-	            <string>%RECIPE_CACHE_DIR%/payload</string>
-	        </dict>
-	    </dict>
-	    <dict>
-	        <key>Processor</key>
-	        <string>Versioner</string>
-	        <key>Arguments</key>
-	        <dict>
-	            <key>input_plist_path</key>
-	            <string>%RECIPE_CACHE_DIR%/payload/R.framework/Versions/Current/Resources/Info.plist</string>
-	            <key>plist_version_key</key>
-	            <string>CFBundleVersion</string>
-	        </dict>
-    </dict>
 		<dict>
 			<key>Processor</key>
 			<string>PkgCopier</string>
