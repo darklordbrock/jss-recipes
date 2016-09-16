@@ -15,7 +15,7 @@
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../AdobeFlashPlayer/UWM-Update-Flash-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/UITS_CCL-Templates/UITS_CCL-Update-Flash-SmartGroupTemplate.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
