@@ -11,7 +11,7 @@
 			<key>POLICY_CATEGORY</key>
 			<string>Productivity</string>
 			<key>SITE_NAME</key>
-			<string>Testing</string>
+			<string>UITS_CCL</string>
 			<key>POLICY_TEMPLATE</key>
 			<string>%RECIPE_DIR%/UITS_CCL-Templates/UITS_CCL-Install_Once-PolicyTemplate.xml</string>
 			<key>GROUP_NAME</key>
