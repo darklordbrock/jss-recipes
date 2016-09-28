@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>com.github.darklordbrock.jss.update.default.TextWrangler</string>
+	<string>com.github.darklordbrock.jss.update.UITS_CCL.TextWrangler</string>
 	<key>Input</key>
 	<dict>
 			<key>SITE_NAME</key>
