@@ -19,7 +19,7 @@
 			<key>GROUP_NAME</key>
 			<string>%NAME%</string>
 			<key>GROUP_TEMPLATE</key>
-			<string>%RECIPE_DIR%/../Templates-default/UWM-Install-SmartGroupTemplate.xml</string>
+			<string>%RECIPE_DIR%/../Templates-default/UWM-Install-SmartGroupTemplate-2016.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.9</string>
