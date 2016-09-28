@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Description</key>
-	<string>Create a package from the Audacity DMG.</string>
 	<key>Identifier</key>
 	<string>com.github.darklordbrock.jss.update.default.TextWrangler</string>
 	<key>Input</key>
