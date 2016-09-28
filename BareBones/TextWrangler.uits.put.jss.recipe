@@ -28,10 +28,6 @@
     						<string>%NAME%</string>
     						<key>category</key>
     						<string>%CATEGORY%</string>
-    						<key>self_service_icon</key>
-    						<string>%ICON%</string>
-    						<key>self_service_description</key>
-    						<string>%DESCRIPTION%</string>
     				</dict>
     				<key>Processor</key>
     				<string>JSSImporter</string>
