@@ -13,7 +13,7 @@
 			<key>SITE_NAME</key>
 			<string>Testing</string>
 			<key>POLICY_TEMPLATE</key>
-			<string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
+			<string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate-2016.xml</string>
 			<key>GROUP_TEMPLATE</key>
 			<string>%RECIPE_DIR%/../Templates-default/UWM-Update-SmartGroupTemplate-2016.xml</string>
 	</dict>
