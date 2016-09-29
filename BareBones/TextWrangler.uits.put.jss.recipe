@@ -8,8 +8,6 @@
     <string>com.github.darklordbrock.jss.put.uits.TextWrangler</string>
     <key>Input</key>
     <dict>
-      <key>VENDER</key>
-      <string>BareBones</string>
       <key>NAME</key>
       <string>TextWrangler</string>
       <key>CATEGORY</key>
