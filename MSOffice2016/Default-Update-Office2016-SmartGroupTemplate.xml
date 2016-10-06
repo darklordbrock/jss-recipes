@@ -2,7 +2,7 @@
   <site>
       <name>%SITE_NAME%</name>
   </site>
-  <name>AutoPkgr-%SITE_NAME%-Update-%NAME%</name>
+  <name>AutoPkgr-%SITE_NAME%-Update-Microsoft-%NAME%</name>
   <is_smart>true</is_smart>
   <criteria>
     <criterion>
