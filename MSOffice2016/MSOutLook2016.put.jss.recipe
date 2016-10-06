@@ -2,92 +2,82 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <key>Description</key>
-    <string>Downloads the latest Excel 2016 multilingual update pkg,
-and appends the version to the end of the filename.
+	<key>Description</key>
+	<string>Downloads the latest Outlook 2016 multilingual update pkg,
+		and appends the version to the end of the filename.
 
-LOCALE_ID sets the locale for a descriptive text that will be
-extracted from the Microsoft update metadata. See
-https://msdn.microsoft.com/en-us/goglobal/bb964664.aspx
-for more information about locale IDs.
+		LOCALE_ID sets the locale for a descriptive text that will be
+		extracted from the Microsoft update metadata. See
+		https://msdn.microsoft.com/en-us/goglobal/bb964664.aspx
+		for more information about locale IDs.
 
-VERSION currently only supports 'latest'.
-</string>
-    <key>Identifier</key>
-    <string>com.github.darklordbrock.jss.put.MSOutlook2016</string>
-    <key>MinimumVersion</key>
-    <string>0.4.2</string>
-    <key>Input</key>
-    <dict>
-        <key>SCOPE</key>
-        <string>All-8Auto-</string>
-        <key>VENDER</key>
-        <string>Microsoft-</string>
-        <key>NAME</key>
-        <string>Outlook_Update</string>
-        <key>CATEGORY</key>
-        <string>AutoPkgr</string>
-        <key>LOCALE_ID</key>
-        <string>1033</string>
-        <key>VERSION</key>
-        <string>latest</string>
-    </dict>
-    <key>Process</key>
-    <array>
-        <dict>
-            <key>Processor</key>
-            <string>MSOffice2016URLandUpdateInfoProvider</string>
-            <key>Arguments</key>
-            <dict>
-                <key>locale_id</key>
-                <string>%LOCALE_ID%</string>
-                <key>product</key>
-                <string>Outlook</string>
-                <key>version</key>
-                <string>%VERSION%</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>URLDownloader</string>
-            <key>Arguments</key>
-            <dict>
-                <key>filename</key>
-                <string>%SCOPE%%VENDER%%NAME%.pkg</string>
-            </dict>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>EndOfCheckPhase</string>
-        </dict>
-        <dict>
-            <key>Processor</key>
-            <string>CodeSignatureVerifier</string>
-            <key>Arguments</key>
-            <dict>
-                <key>input_path</key>
-                <string>%pathname%</string>
-                <key>expected_authority_names</key>
-                <array>
-                    <string>Developer ID Installer: Microsoft Corporation (UBF8T346G9)</string>
-                    <string>Developer ID Certification Authority</string>
-                    <string>Apple Root CA</string>
-                </array>
-            </dict>
-        </dict>
-        <dict>
-          <key>Arguments</key>
-            <dict>
-            <key>prod_name</key>
-            <string>%NAME%</string>
-            <key>pkg_path</key>
-            <string>%RECIPE_CACHE_DIR%/downloads/%SCOPE%%VENDER%%NAME%.pkg</string>
-            <key>category</key>
-            <string>%CATEGORY%</string>
-            </dict>
-          <key>Processor</key>
-          <string>JSSImporter</string>
-        </dict>
-    </array>
+		VERSION currently only supports 'latest'.
+		Then, uploads to the JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.darklordbrock.jss.put.MSOutlook2016</string>
+	<key>Input</key>
+	<dict>
+		<key>CATEGORY</key>
+		<string>AutoPkgr</string>
+		<key>NAME</key>
+		<string>Outlook</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.12.x,10.11.x,10.10.x</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.4.2</string>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.download.MSOutlook2016</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>destination_path</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked</string>
+				<key>flat_pkg_path</key>
+				<string>%pathname%</string>
+				<key>purge_destination</key>
+				<true/>
+				<key>skip_payload</key>
+				<true/>
+			</dict>
+			<key>Processor</key>
+			<string>FlatPkgUnpacker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pattern</key>
+				<string>%RECIPE_CACHE_DIR%/unpacked/*.pkg/PackageInfo</string>
+			</dict>
+			<key>Processor</key>
+			<string>FileFinder</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>packageinfo_path</key>
+				<string>%found_filename%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.jss-recipes.MSOffice2016VersionChecker/MSOffice2016VersionChecker</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+				<key>os_requirements</key>
+				<string>%OS_REQUIREMENTS%</string>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
+				<key>prod_name</key>
+				<string>%NAME%</string>
+			</dict>
+			<key>Processor</key>
+			<string>JSSImporter</string>
+		</dict>
+	</array>
 </dict>
 </plist>
