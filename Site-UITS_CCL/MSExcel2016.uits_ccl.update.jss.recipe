@@ -11,7 +11,7 @@
             <key>SITE_NAME</key>
             <string>UITS_CCL</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UITS_CCL-Update-Office2016-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../MSOffice2016/Default-Update-Office2016-PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/../MSOffice2016/Default-Update-Office2016-SmartGroupTemplate.xml</string>
         </dict>
