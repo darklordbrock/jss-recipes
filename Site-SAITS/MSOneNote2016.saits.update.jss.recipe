@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>This uploads the latest excel update and builds a smartgroup and policy.</string>
+        <key>Identifier</key>
+        <string>com.github.darklordbrock.jss.update.saits.MSOneNote2016</string>
+        <key>Input</key>
+        <dict>
+            <key>SITE_NAME</key>
+            <string>SA</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../MSOffice2016/Default-Update-Office2016-PolicyTemplate.xml</string>
+            <key>GROUP_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../MSOffice2016/Default-Update-Office2016-SmartGroupTemplate.xml</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.4.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.darklordbrock.jss.update.default.MSOneNote2016</string>
+    </dict>
+</plist>
