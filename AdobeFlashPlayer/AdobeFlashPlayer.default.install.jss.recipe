@@ -13,7 +13,7 @@
             <key>POLICY_CATEGORY</key>
             <string>Plug-ins</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate-2016.xml</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/Default-Install-Flash-SmartGroupTemplate.xml</string>
             <key>ICON</key>
