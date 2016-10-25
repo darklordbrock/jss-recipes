@@ -8,16 +8,18 @@
         <string>com.github.darklordbrock.jss.install.default.AdobeFlashPlayer</string>
         <key>Input</key>
         <dict>
-            <key>SITE_NAME</key>
-            <string>Testing</string>
-            <key>POLICY_CATEGORY</key>
-            <string>Plug-ins</string>
-            <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate-2016.xml</string>
-            <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/Default-Install-Flash-SmartGroupTemplate.xml</string>
-            <key>ICON</key>
-            <string>icons/AdobeFlashPlayer.png</string>
+          <key>NAME</key>
+          <string>Flash</string>
+          <key>SITE_NAME</key>
+          <string>Testing</string>
+          <key>POLICY_CATEGORY</key>
+          <string>Plug-ins</string>
+          <key>POLICY_TEMPLATE</key>
+          <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate-2016.xml</string>
+          <key>GROUP_TEMPLATE</key>
+          <string>%RECIPE_DIR%/Default-Install-Flash-SmartGroupTemplate.xml</string>
+          <key>ICON</key>
+          <string>icons/AdobeFlashPlayer.png</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
