@@ -14,8 +14,6 @@
             <string>Plug-ins</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
-            <key>GROUP_NAME</key>
-            <string>Adobe-Flash</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/Default-Install-Flash-SmartGroupTemplate.xml</string>
             <key>ICON</key>
