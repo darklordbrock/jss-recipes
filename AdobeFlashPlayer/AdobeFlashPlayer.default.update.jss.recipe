@@ -11,7 +11,7 @@
             <key>SITE_NAME</key>
             <string>Testing</string>
             <key>POLICY_CATEGORY</key>
-            <string>Plug-ins</string>
+            <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
             <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate-2016.xml</string>
             <key>GROUP_TEMPLATE</key>
