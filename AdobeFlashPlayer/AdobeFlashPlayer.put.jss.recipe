@@ -10,8 +10,6 @@
     <dict>
         <key>NAME</key>
         <string>Flash</string>
-        <key>VENDER</key>
-        <string>Mozilla</string>
         <key>CATEGORY</key>
         <string>AutoPkgr</string>
     </dict>
