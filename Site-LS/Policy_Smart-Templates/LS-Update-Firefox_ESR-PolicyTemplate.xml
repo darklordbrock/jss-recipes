@@ -1,0 +1,26 @@
+<policy>
+    <general>
+        <site>
+          <name>%SITE_NAME%</name>
+        </site>
+        <name>LSITO-ESR_Firefox</name>
+        <enabled>true</enabled>
+        <frequency>Ongoing</frequency>
+        <category>
+            <name>L&S Triggered Policies</name>
+        </category>
+        <trigger_other>@esr-firefox</trigger_other>
+    </general>
+	<scope>
+		<!--Scope added by JSSImporter-->
+	</scope>
+	<package_configuration>
+		<!--Package added by JSSImporter-->
+  </package_configuration>
+  <scripts>
+		<!--Scripts added by JSSImporter-->
+  </scripts>
+  <files_processes>
+    <run_command>/bin/chmod -R 775 /Applications/Firefox.app</run_command>
+  </files_processes>
+</policy>
