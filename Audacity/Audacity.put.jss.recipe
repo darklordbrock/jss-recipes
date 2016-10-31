@@ -26,6 +26,8 @@
 					<string>%NAME%</string>
 					<key>category</key>
 					<string>%CATEGORY%</string>
+					<key>version</key>
+				<string>%version%</string>
 			</dict>
 			<key>Processor</key>
 			<string>JSSImporter</string>
