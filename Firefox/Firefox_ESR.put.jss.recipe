@@ -22,6 +22,8 @@ combination is offered.</string>
         <string>en_US</string>
         <key>RELEASE</key>
         <string>latest-esr</string>
+        <key>VENDER</key>
+        <string>Mozilla</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>

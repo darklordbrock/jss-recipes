@@ -12,6 +12,8 @@
         <string>Flash</string>
         <key>CATEGORY</key>
         <string>AutoPkgr</string>
+        <key>VENDER</key>
+        <string>Adobe</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
@@ -23,7 +25,7 @@
             <key>Arguments</key>
             <dict>
                 <key>prod_name</key>
-                <string>%VENDER%-%NAME%</string>
+                <string>%NAME%-%version%</string>
                 <key>category</key>
                 <string>%CATEGORY%</string>
             </dict>
