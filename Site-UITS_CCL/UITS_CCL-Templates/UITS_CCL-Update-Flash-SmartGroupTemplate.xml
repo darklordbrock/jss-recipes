@@ -2,7 +2,7 @@
   <site>
       <name>%SITE_NAME%</name>
   </site>
-  <name>AutoPkgr-%SITE_NAME%-Update-%group_name%</name>
+  <name>AutoPkgr-%SITE_NAME%-Update-%VENDER%-%NAME%</name>
   <is_smart>true</is_smart>
   <criteria>
       <criterion>

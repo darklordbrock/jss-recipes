@@ -19,11 +19,11 @@ combination is offered.</string>
             <key>POLICY_CATEGORY</key>
             <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UITS-Update-Firefox_ESR-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/Default-Update-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UITS-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Default-Update-Firefox_ESR-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%VENDER%-%NAME%</string>
             <key>DESCRIPTION</key>

@@ -13,7 +13,7 @@
             <key>POLICY_CATEGORY</key>
             <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Update-PolicyTemplate-2016.xml</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/../AdobeFlashPlayer/UWM-Update-Flash-SmartGroupTemplate.xml</string>
         </dict>

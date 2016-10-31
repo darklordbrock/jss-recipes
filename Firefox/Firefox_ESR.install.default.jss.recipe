@@ -19,11 +19,11 @@ combination is offered.</string>
             <key>POLICY_CATEGORY</key>
             <string>Browsers</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UITS-Install-Firefox_ESR-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/Default-Install-Firefox_ESR-PolicyTemplate.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/Firefox.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/UITS-Install-Firefox_ESR-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/Default-Install-Firefox_ESR-SmartGroupTemplate.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>DESCRIPTION</key>

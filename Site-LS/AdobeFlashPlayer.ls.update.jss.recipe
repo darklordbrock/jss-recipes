@@ -13,7 +13,7 @@
             <key>POLICY_CATEGORY</key>
             <string>Updates</string>
             <key>POLICY_TEMPLATE</key>
-            <string></string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Adobe_Flash-PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Flash-SmartGroupTemplate.xml</string>
         </dict>

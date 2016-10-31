@@ -10,14 +10,6 @@
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
-            <key>POLICY_CATEGORY</key>
-            <string>Plug-ins</string>
-            <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
-            <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%../AdobeFlashPlayer/Default-Install-Flash-SmartGroupTemplate.xml</string>
-            <key>ICON</key>
-            <string>icons/AdobeFlashPlayer.png</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
