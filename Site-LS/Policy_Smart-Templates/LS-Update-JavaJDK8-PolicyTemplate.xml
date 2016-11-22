@@ -1,0 +1,23 @@
+<policy>
+    <general>
+        <site>
+          <name>%SITE_NAME%</name>
+        </site>
+        <name>LSITO-Java_8_JDK</name>
+        <enabled>true</enabled>
+        <frequency>Ongoing</frequency>
+        <category>
+            <name>LS Triggered Policies</name>
+        </category>
+        <trigger_other>@java_JDK</trigger_other>
+    </general>
+	<scope>
+		<all_computers>true</all_computers>
+	</scope>
+	<package_configuration>
+		<!--Package added by JSSImporter-->
+  </package_configuration>
+  <scripts>
+		<!--Scripts added by JSSImporter-->
+  </scripts>
+</policy>
