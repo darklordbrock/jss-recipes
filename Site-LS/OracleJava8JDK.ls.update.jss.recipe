@@ -15,7 +15,7 @@
 		<key>GROUP_TEMPLATE</key>
 		<string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-JavaJDK8-SmartGroupTemplate.xml</string>
 		<key>POLICY_TEMPLATE</key>
-		<string></string>
+		<string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-JavaJDK8-PolicyTemplate.xml</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>

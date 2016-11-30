@@ -17,7 +17,7 @@ http://www.oracle.com/technetwork/java/javase/terms/license/index.html
             <key>SITE_NAME</key>
             <string>LS</string>
             <key>POLICY_TEMPLATE</key>
-            <string></string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Java8-PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Java8-SmartGroupTemplate.xml</string>
         </dict>
