@@ -11,7 +11,7 @@
             <key>SITE_NAME</key>
             <string>LS</string>
             <key>POLICY_TEMPLATE</key>
-            <string></string>
+            <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Silverlight-PolicyTemplate.xml</string>
             <key>GROUP_TEMPLATE</key>
             <string>%RECIPE_DIR%/Policy_Smart-Templates/LS-Update-Silverlight-SmartGroupTemplate.xml</string>
         </dict>
