@@ -8,7 +8,7 @@
     <string>com.github.darklordbrock.jss.put.uits.VLC</string>
     <key>Input</key>
     <dict>
-      <key>Vender</key>
+      <key>VENDER</key>
       <string>VideoLAN</string>
       <key>NAME</key>
       <string>VLC</string>
