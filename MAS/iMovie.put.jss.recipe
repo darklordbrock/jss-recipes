@@ -8,10 +8,31 @@
 	<dict>
 		<key>NAME</key>
 		<string>iMovie</string>
-		<key>mas_action</key>
-		<string>delete</string>
+		<key>CATEGORY</key>
+		<string>Office</string>
+		<key>VENDER</key>
+		<string>Apple</string>
+		<key>OS_REQUIREMENTS</key>
+		<string>10.11.x</string>
 	</dict>
 	<key>ParentRecipe</key>
-	<string>com.github.darklordbrock.jss.put.uits.genericMASapp</string>
+	<string>com.github.nmcspadden.pkg.appstore</string>
+	<key>Process</key>
+	<array>
+			<dict>
+					<key>Arguments</key>
+					<dict>
+							<key>prod_name</key>
+							<string>%NAME%</string>
+							<key>category</key>
+							<string>%CATEGORY%</string>
+							<key>os_requirements</key>
+							<string>%OS_REQUIREMENTS%</string>
+					</dict>
+					<key>Processor</key>
+					<string>JSSImporter</string>
+			</dict>
+	</array>
 </dict>
+
 </plist>
