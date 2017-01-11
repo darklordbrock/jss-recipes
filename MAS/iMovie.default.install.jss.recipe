@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
-        <key>Description</key>
-        <string></string>
         <key>Identifier</key>
         <string>com.github.darklordbrock.jss.install.default.iMovie</string>
         <key>Input</key>
@@ -13,11 +11,11 @@
             <key>POLICY_CATEGORY</key>
             <string>Multimedia</string>
             <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
+            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate-2016.xml</string>
             <key>ICON</key>
             <string>%RECIPE_DIR%/iMovie.png</string>
             <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/MASApps-Install-SmartGroupTemplate.xml</string>
+            <string>%RECIPE_DIR%/MASApps-Install-SmartGroupTemplate-2016.xml</string>
             <key>GROUP_NAME</key>
             <string>%NAME%</string>
             <key>DESCRIPTION</key>
