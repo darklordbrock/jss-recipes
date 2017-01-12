@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Create a package from the Audacity DMG.</string>
+	<key>Identifier</key>
+	<string>com.github.darklordbrock.jss.install.uits_ccl.iMovie</string>
+	<key>Input</key>
+	<dict>
+			<key>SITE_NAME</key>
+			<string>UITS_CCL</string>
+			<key>POLICY_TEMPLATE</key>
+			<string>%RECIPE_DIR%/UITS_CCL-Templates/UITS_CCL-Install_Once-PolicyTemplate.xml</string>
+			<key>GROUP_TEMPLATE</key>
+			<string></string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>0.2.9</string>
+	<key>ParentRecipe</key>
+	<string>com.github.darklordbrock.jss.install.default.iMovie</string>
+</dict>
+</plist>

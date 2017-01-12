@@ -10,18 +10,6 @@
         <dict>
             <key>SITE_NAME</key>
             <string>SA</string>
-            <key>POLICY_CATEGORY</key>
-            <string>Multimedia</string>
-            <key>POLICY_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../Templates-default/UWM-Install-PolicyTemplate.xml</string>
-            <key>ICON</key>
-            <string>%RECIPE_DIR%/../MAS/iMovie.png</string>
-            <key>GROUP_TEMPLATE</key>
-            <string>%RECIPE_DIR%/../MAS/MASApps-Install-SmartGroupTemplate.xml</string>
-            <key>GROUP_NAME</key>
-            <string>%NAME%</string>
-            <key>DESCRIPTION</key>
-            <string>Video Editting</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
