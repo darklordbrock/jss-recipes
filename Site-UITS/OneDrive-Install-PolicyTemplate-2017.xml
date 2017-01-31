@@ -19,7 +19,7 @@
     </package_configuration>
     <scripts>
       <script>
-        <name>UITS-OneDrive_Settings.sh</name>
+        <name>All-OneDrive_Settings.sh</name>
         <priority>After</priority>
         <parameter4/>
         <parameter5/>

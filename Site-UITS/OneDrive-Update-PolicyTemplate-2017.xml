@@ -24,7 +24,7 @@
     </package_configuration>
     <scripts>
       <script>
-        <name>UITS-OneDrive_Settings.sh</name>
+        <name>All-OneDrive_Settings.sh</name>
         <priority>After</priority>
         <parameter4/>
         <parameter5/>
@@ -36,7 +36,7 @@
         <parameter11/>
       </script>
       <script>
-        <name>UITS-Kill_OneDrive.sh</name>
+        <name>All-Quit_OneDrive.sh</name>
         <priority>Before</priority>
         <parameter4/>
         <parameter5/>
