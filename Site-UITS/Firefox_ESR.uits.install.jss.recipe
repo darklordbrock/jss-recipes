@@ -8,6 +8,8 @@
         <dict>
             <key>SITE_NAME</key>
             <string>UITS</string>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/Firefox_ESR-Install-PolicyTemplate-2017.xml</string>
         </dict>
         <key>MinimumVersion</key>
         <string>0.4.0</string>
