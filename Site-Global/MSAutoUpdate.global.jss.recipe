@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Description</key>
+        <string>This makes and updates the global </string>
+        <key>Identifier</key>
+        <string>com.github.darklordbrock.jss.global.MSAutoUpdate</string>
+        <key>Input</key>
+        <dict>
+            <key>POLICY_TEMPLATE</key>
+            <string>%RECIPE_DIR%/../MSOffice2016/Default-Office2016-MSAutoUpdate-PolicyTemplate.xml</string>
+        </dict>
+        <key>MinimumVersion</key>
+        <string>0.4.0</string>
+        <key>ParentRecipe</key>
+        <string>com.github.darklordbrock.jss.put.MSAutoUpdate</string>
+    </dict>
+</plist>
