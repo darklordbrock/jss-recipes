@@ -19,9 +19,9 @@ combination is offered.</string>
         <key>CATEGORY</key>
         <string>AutoPkgr</string>
         <key>LOCALE</key>
-        <string>en_US</string>
+        <string>en-US</string>
         <key>RELEASE</key>
-        <string>latest-esr</string>
+        <string>esr-latest</string>
         <key>VENDER</key>
         <string>Mozilla</string>
     </dict>
